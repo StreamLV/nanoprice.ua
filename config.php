@@ -1,6 +1,7 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://127.0.0.1/nanoprice.ua/');
+//define('HTTP_SERVER', 'http://127.0.0.1/nanoprice.ua/');
+define('HTTP_SERVER', 'http://192.168.10.210/nanoprice.ua/');
 
 // HTTPS
 define('HTTPS_SERVER', 'http://127.0.0.1/nanoprice.ua/');
