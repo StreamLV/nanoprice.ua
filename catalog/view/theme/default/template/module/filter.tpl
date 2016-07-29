@@ -6,7 +6,7 @@
     <div class="list-group-item">
       <div id="filter-group<?php echo $filter_group['filter_group_id']; ?>">
         <?php foreach ($filter_group['filter'] as $filter) { ?>
-        <div class="checkbox">
+        <div class="magic-checkbox">
           <label>
             <?php if (in_array($filter['filter_id'], $filter_category)) { ?>
             <input type="checkbox" name="filter[]" value="<?php echo $filter['filter_id']; ?>" checked="checked" />
